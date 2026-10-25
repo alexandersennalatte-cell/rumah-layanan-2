@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#15803d" />
+      <stop offset="60%" stopColor="#166534" />
+      <stop offset="100%" stopColor="#14532d" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#fef08a" />
+      <stop offset="50%" stopColor="#eab308" />
+      <stop offset="100%" stopColor="#ca8a04" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#38bdf8" />
+      <stop offset="100%" stopColor="#0284c7" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Pentagon Shield with 5 steps -->
+  <polygon points="100,8 190,75 160,205 40,205 10,75" fill="url(#goldGrad)" stroke="#a16207" stroke-width="2.5" filter="url(#shadow)" />
+  <polygon points="100,16 182,78 154,197 46,197 18,78" fill="url(#shieldGrad)" stroke="#ffffff" stroke-width="2" />
+
+  <!-- Mount / Mountain Range (Perbukitan Kapur) -->
+  <path d="M 35,160 Q 65,115 100,110 Q 135,115 165,160 Z" fill="#047857" opacity="0.8" />
+  
+  <!-- Bintang Emas Sudut Lima -->
+  <polygon points="100,28 106,46 124,46 110,56 115,74 100,63 85,74 90,56 76,46 94,46" fill="url(#goldGrad)" stroke="#a16207" stroke-width="0.8" />
+
+  <!-- Tempayan Air Batu & Gelombang Laut Jawa / Bengawan Solo -->
+  <ellipse cx="100" cy="155" rx="46" ry="16" fill="#64748b" stroke="#334155" stroke-width="1.5" />
+  <path d="M 60,154 Q 75,150 100,150 Q 125,150 140,154 Q 135,168 100,168 Q 65,168 60,154 Z" fill="url(#waterGrad)" />
+  <path d="M 68,154 Q 84,152 100,154 T 132,154" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Keris Pusaka Lamongan di Tengah -->
+  <path d="M 98,75 Q 102,82 98,90 Q 102,98 98,106 Q 102,114 98,122 L 98,145 L 102,145 L 102,122 Q 106,114 102,106 Q 106,98 102,90 Q 106,82 102,75 Z" fill="url(#goldGrad)" stroke="#854d0e" stroke-width="1" />
+  <rect x="94" y="145" width="12" height="4" rx="1.5" fill="#ca8a04" />
+  <path d="M 97,149 L 103,149 L 101,162 L 99,162 Z" fill="#713f12" />
+
+  <!-- Ikan Lele (Kiri - Ulet & Tahan Ujian) -->
+  <g transform="translate(42, 85)">
+    <!-- Lele body curved upward -->
+    <path d="M 28,52 C 22,44 14,35 14,24 C 14,14 20,6 26,0 C 27,8 24,18 25,28 C 26,38 30,46 32,54 Z" fill="#1e293b" stroke="#0f172a" stroke-width="1" />
+    <!-- Lele head & whiskers (patil) -->
+    <circle cx="26" cy="3" r="2.5" fill="#f8fafc" />
+    <path d="M 26,2 Q 18,-2 12,2" fill="none" stroke="#e2e8f0" stroke-width="1" />
+    <path d="M 27,4 Q 20,8 14,12" fill="none" stroke="#e2e8f0" stroke-width="1" />
+    <!-- Fin / Patil -->
+    <path d="M 17,20 L 8,24 L 16,26 Z" fill="#334155" />
+    <path d="M 30,50 L 33,60 L 27,55 Z" fill="#334155" />
+  </g>
+
+  <!-- Ikan Bandeng (Kanan - Potensi & Kemakmuran) -->
+  <g transform="translate(118, 85)">
+    <!-- Bandeng body silvery blue curved -->
+    <path d="M 4,52 C 10,44 18,35 18,24 C 18,14 12,6 6,0 C 5,8 8,18 7,28 C 6,38 2,46 0,54 Z" fill="#94a3b8" stroke="#475569" stroke-width="1" />
+    <!-- Eye & scales -->
+    <circle cx="6" cy="3" r="2.5" fill="#f8fafc" />
+    <circle cx="6.5" cy="3" r="1.2" fill="#0f172a" />
+    <path d="M 12,18 Q 16,25 12,32" fill="none" stroke="#cbd5e1" stroke-width="1" />
+    <!-- Tail & Fins -->
+    <path d="M 15,20 L 24,23 L 16,25 Z" fill="#64748b" />
+    <path d="M 2,50 L -1,60 L 5,55 Z" fill="#64748b" />
+  </g>
+
+  <!-- Untaian Padi & Kapas (Kiri Padi Emas, Kanan Kapas Putih) -->
+  <path d="M 28,175 C 20,135 22,95 34,60" fill="none" stroke="#facc15" stroke-width="3" stroke-dasharray="3 4" stroke-linecap="round" />
+  <path d="M 172,175 C 180,135 178,95 166,60" fill="none" stroke="#f8fafc" stroke-width="3" stroke-dasharray="3 4" stroke-linecap="round" />
+
+  <!-- Pita Kuning Bawah: KABUPATEN LAMONGAN -->
+  <g transform="translate(100, 212)">
+    <path d="M -75,-14 L -65,-22 L -75,-30 L -55,-22 L 55,-22 L 75,-30 L 65,-22 L 75,-14 L 55,-22 L -55,-22 Z" fill="#ca8a04" />
+    <rect x="-62" y="-24" width="124" height="20" rx="4" fill="url(#goldGrad)" stroke="#a16207" stroke-width="1.5" />
+    <text x="0" y="-10" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="9" fill="#14532d" letter-spacing="0.8">KABUPATEN LAMONGAN</text>
+  </g>
+</svg>

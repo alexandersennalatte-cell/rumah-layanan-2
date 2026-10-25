@@ -1,0 +1,6 @@
+{
+  "name": "Portal Resmi Pemkab Lamongan",
+  "description": "Portal resmi Pemerintah Kabupaten Lamongan dengan peta interaktif landmark, layanan publik, Lapor Pak YES, CCTV, GIS, Satu Data Lamongan, transparansi APBD, dan autentikasi warga.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

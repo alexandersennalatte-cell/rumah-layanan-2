@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <radialGradient id="wabupBg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stopColor="#f0fdf4" />
+      <stop offset="60%" stopColor="#dcfce7" />
+      <stop offset="100%" stopColor="#bbf7d0" />
+    </radialGradient>
+    <linearGradient id="goldRibbonW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#fef08a" />
+      <stop offset="50%" stopColor="#eab308" />
+      <stop offset="100%" stopColor="#a16207" />
+    </linearGradient>
+  </defs>
+
+  <!-- Crisp Clean Background Circle -->
+  <circle cx="120" cy="120" r="118" fill="url(#wabupBg)" stroke="#16a34a" stroke-width="2.5" />
+
+  <!-- Shoulders & Official White Ceremonial Uniform (PDU) -->
+  <path d="M 30,238 C 35,175 75,160 120,160 C 165,160 205,175 210,238 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+  
+  <!-- Collar & Black Tie -->
+  <polygon points="120,158 112,190 120,235 128,190" fill="#0f172a" />
+  <polygon points="120,158 114,170 126,170" fill="#1e293b" />
+  
+  <!-- White Wing Collars -->
+  <polygon points="100,154 120,174 112,154" fill="#f8fafc" stroke="#94a3b8" stroke-width="1" />
+  <polygon points="140,154 120,174 128,154" fill="#f8fafc" stroke="#94a3b8" stroke-width="1" />
+
+  <!-- Gold Shoulder Rank Epaulettes (Pangkat Wakil Bupati) -->
+  <rect x="42" y="172" width="28" height="10" rx="3" transform="rotate(-18 56 177)" fill="url(#goldRibbonW)" stroke="#854d0e" stroke-width="1" />
+  <circle cx="56" cy="177" r="2.5" fill="#ffffff" />
+  <rect x="170" y="172" width="28" height="10" rx="3" transform="rotate(18 184 177)" fill="url(#goldRibbonW)" stroke="#854d0e" stroke-width="1" />
+  <circle cx="184" cy="177" r="2.5" fill="#ffffff" />
+
+  <!-- Medals & Ribbons -->
+  <rect x="70" y="195" width="22" height="6" rx="1.5" fill="#15803d" />
+  <rect x="70" y="202" width="22" height="6" rx="1.5" fill="#ca8a04" />
+  <circle cx="160" cy="200" r="7" fill="url(#goldRibbonW)" stroke="#854d0e" stroke-width="1" />
+  <circle cx="160" cy="200" r="3" fill="#16a34a" />
+
+  <!-- Neck -->
+  <rect x="108" y="132" width="24" height="28" rx="4" fill="#fbcfe8" />
+  <path d="M 108,132 L 108,156 C 108,160 132,160 132,156 L 132,132 Z" fill="#fcd34d" />
+
+  <!-- Head / Face: Dirham Aksara (Young, Dynamic, Polite) -->
+  <ellipse cx="120" cy="115" rx="33" ry="39" fill="#fed7aa" />
+  
+  <!-- Ears -->
+  <ellipse cx="86" cy="116" rx="6" ry="11" fill="#fcd34d" />
+  <ellipse cx="154" cy="116" rx="6" ry="11" fill="#fcd34d" />
+
+  <!-- Modern Sharp Eyebrows & Eyes -->
+  <path d="M 99,103 Q 108,98 115,102" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 125,102 Q 132,98 141,103" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round" />
+  
+  <ellipse cx="107" cy="110" rx="3.5" ry="3" fill="#0f172a" />
+  <circle cx="108" cy="109" r="1" fill="#ffffff" />
+
+  <ellipse cx="133" cy="110" rx="3.5" ry="3" fill="#0f172a" />
+  <circle cx="134" cy="109" r="1" fill="#ffffff" />
+
+  <!-- Nose -->
+  <path d="M 120,108 L 118,123 Q 120,126 123,123" fill="none" stroke="#b45309" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Polite Smile -->
+  <path d="M 109,134 Q 120,143 131,134" fill="#be123c" stroke="#9f1239" stroke-width="1.2" />
+  <path d="M 111,134 Q 120,138 129,134" fill="#ffffff" />
+
+  <!-- Black Peci (Songkok Nasional) with Official Gold Insignia -->
+  <path d="M 85,92 C 85,65 95,42 120,42 C 145,42 155,65 155,92 Z" fill="#090d16" stroke="#000000" stroke-width="1.5" />
+  <g transform="translate(120, 68)">
+    <polygon points="0,-6 2,-2 6,-2 3,1 4,5 0,2 -4,5 -3,1 -6,-2 -2,-2" fill="url(#goldRibbonW)" stroke="#854d0e" stroke-width="0.6" />
+  </g>
+</svg>

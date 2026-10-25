@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bupatiBg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stopColor="#f0fdf4" />
+      <stop offset="60%" stopColor="#dcfce7" />
+      <stop offset="100%" stopColor="#bbf7d0" />
+    </radialGradient>
+    <linearGradient id="goldRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#fef08a" />
+      <stop offset="50%" stopColor="#eab308" />
+      <stop offset="100%" stopColor="#a16207" />
+    </linearGradient>
+  </defs>
+
+  <!-- Crisp Clean Background Circle -->
+  <circle cx="120" cy="120" r="118" fill="url(#bupatiBg)" stroke="#16a34a" stroke-width="2.5" />
+
+  <!-- Shoulders & Official White Ceremonial Uniform (PDU) -->
+  <path d="M 30,238 C 35,175 75,160 120,160 C 165,160 205,175 210,238 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+  
+  <!-- Collar & Black Tie -->
+  <polygon points="120,158 112,190 120,235 128,190" fill="#0f172a" />
+  <polygon points="120,158 114,170 126,170" fill="#1e293b" />
+  
+  <!-- White Wing Collars -->
+  <polygon points="100,154 120,174 112,154" fill="#f8fafc" stroke="#94a3b8" stroke-width="1" />
+  <polygon points="140,154 120,174 128,154" fill="#f8fafc" stroke="#94a3b8" stroke-width="1" />
+
+  <!-- Gold Shoulder Rank Epaulettes (Pangkat Bupati) -->
+  <rect x="42" y="172" width="28" height="10" rx="3" transform="rotate(-18 56 177)" fill="url(#goldRibbon)" stroke="#854d0e" stroke-width="1" />
+  <circle cx="56" cy="177" r="2.5" fill="#ffffff" />
+  <rect x="170" y="172" width="28" height="10" rx="3" transform="rotate(18 184 177)" fill="url(#goldRibbon)" stroke="#854d0e" stroke-width="1" />
+  <circle cx="184" cy="177" r="2.5" fill="#ffffff" />
+
+  <!-- Medals & Ribbons -->
+  <rect x="70" y="195" width="22" height="6" rx="1.5" fill="#1d4ed8" />
+  <rect x="70" y="202" width="22" height="6" rx="1.5" fill="#dc2626" />
+  <circle cx="160" cy="200" r="7" fill="url(#goldRibbon)" stroke="#854d0e" stroke-width="1" />
+  <circle cx="160" cy="200" r="3" fill="#b91c1c" />
+
+  <!-- Neck -->
+  <rect x="108" y="132" width="24" height="28" rx="4" fill="#fbcfe8" />
+  <path d="M 108,132 L 108,156 C 108,160 132,160 132,156 L 132,132 Z" fill="#fcd34d" />
+
+  <!-- Head / Face: Dr. H. Yuhronur Efendi, MBA (Warm, Smiling, Distinguished) -->
+  <ellipse cx="120" cy="115" rx="34" ry="40" fill="#fed7aa" />
+  
+  <!-- Ears -->
+  <ellipse cx="85" cy="116" rx="6" ry="11" fill="#fcd34d" />
+  <ellipse cx="155" cy="116" rx="6" ry="11" fill="#fcd34d" />
+
+  <!-- Cheerful Eyes & Eyebrows -->
+  <path d="M 98,103 Q 107,99 114,102" fill="none" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 126,102 Q 133,99 142,103" fill="none" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" />
+  
+  <ellipse cx="106" cy="110" rx="3.5" ry="3" fill="#0f172a" />
+  <circle cx="107" cy="109" r="1" fill="#ffffff" />
+
+  <ellipse cx="134" cy="110" rx="3.5" ry="3" fill="#0f172a" />
+  <circle cx="135" cy="109" r="1" fill="#ffffff" />
+
+  <!-- Glasses (Kacamata Khas Pak Yes) -->
+  <rect x="96" y="104" width="19" height="13" rx="3" fill="none" stroke="#334155" stroke-width="1.8" />
+  <rect x="125" y="104" width="19" height="13" rx="3" fill="none" stroke="#334155" stroke-width="1.8" />
+  <path d="M 115,109 L 125,109" fill="none" stroke="#334155" stroke-width="1.8" />
+
+  <!-- Nose -->
+  <path d="M 120,108 L 118,123 Q 120,126 123,123" fill="none" stroke="#b45309" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Warm Smile -->
+  <path d="M 108,133 Q 120,143 132,133" fill="#be123c" stroke="#9f1239" stroke-width="1.2" />
+  <path d="M 110,133 Q 120,138 130,133" fill="#ffffff" />
+
+  <!-- Black Peci (Songkok Nasional) with Official Gold Insignia -->
+  <path d="M 84,92 C 84,65 94,42 120,42 C 146,42 156,65 156,92 Z" fill="#090d16" stroke="#000000" stroke-width="1.5" />
+  <g transform="translate(120, 68)">
+    <polygon points="0,-6 2,-2 6,-2 3,1 4,5 0,2 -4,5 -3,1 -6,-2 -2,-2" fill="url(#goldRibbon)" stroke="#854d0e" stroke-width="0.6" />
+  </g>
+</svg>
