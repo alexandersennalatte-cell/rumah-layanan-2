@@ -3,11 +3,11 @@ import { Landmark, LeaderInfo, NavModule, CCTVCamera, PublicServiceItem, Complai
 export const leadersData: Record<'bupati' | 'wakil_bupati', LeaderInfo> = {
   bupati: {
     id: 'bupati',
-    role: 'BUPATI LAMONGAN',
+    role: 'BUPATI LAMONGAN 1',
     roleEn: 'REGENT OF LAMONGAN',
     name: 'Dr. H. YUHRONUR EFENDI, MBA',
     fullTitle: 'Dr. H. Yuhronur Efendi, M.B.A. (Pak Yes)',
-    image: '/assets/bupati-lamongan.svg',
+    image: '/assets/yes1.webp',
     quote: 'Mewujudkan Kejayaan Lamongan yang Berkelanjutan: Masyarakat yang berdaya saing tinggi, adil, sejahtera, dan bangga akan jati diri Lamongan Megilan.',
     quoteEn: 'Realizing the Sustainable Glory of Lamongan: Competitive, equitable, prosperous citizens proud of the Lamongan Megilan identity.',
     bio: 'Birokrat senior dan visioner kelahiran Karangbinangun, Lamongan. Meniti karir panjang sebagai Sekretaris Daerah (Sekda) Kabupaten Lamongan sebelum terpilih memimpin daerah. Dikenal lewat terobosan Program JAMULA (Jalan Mantap Lamongan), penguatan lumbung pangan padi dan ikan nasional, serta digitalisasi birokrasi yang melayani dengan hati.',
@@ -38,7 +38,7 @@ export const leadersData: Record<'bupati' | 'wakil_bupati', LeaderInfo> = {
     roleEn: 'VICE REGENT OF LAMONGAN',
     name: 'DIRHAM AKSARA',
     fullTitle: 'Dirham Aksara, S.T., M.Sc.',
-    image: '/assets/wakil-bupati-lamongan.svg',
+    image: '/assets/dirham1.jpg',
     quote: 'Kolaborasi generasi muda yang adaptif dengan kearifan lokal adalah pendorong utama transformasi Lamongan masa depan.',
     quoteEn: 'Adaptive youth collaboration paired with time-honored local wisdom is the prime catalyst of Lamongan future transformation.',
     bio: 'Tokoh muda energik dengan latar belakang pendidikan teknik dan manajemen sains internasional. Berkomitmen mengakselerasi hilirisasi perikanan Pantura, ekosistem ekonomi kreatif pemuda, serta pengembangan destinasi pariwisata bahari kelas dunia di pesisir utara Lamongan.',
